@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 @media screen and (max-width: 1435px) {
@@ -245,4 +246,253 @@
         text-align:center;
     }
     
+=======
+
+
+@media screen and (max-width: 1435px) {
+    /* about me */ 
+
+    #my-photograph{
+        width:  390px;
+        height: 390px;
+ 
+    }
+}
+@media screen and (max-width: 1317px) {
+    /* about me */ 
+
+    .main-content .me-content h1{
+   
+         font-size:35px;
+      }
+}
+
+
+@media screen and (max-width: 996px) {
+    /* who i am */ 
+    .about-content{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .about-section #about-potograph{
+        
+        position: static;
+      
+        width:  250px;
+        height: 250px;
+        border: 10px solid #83c4e4;
+        border-radius: 50%;
+        object-fit:cover;
+    }
+
+   /* about me */ 
+
+   #my-photograph{
+    width:  330px;
+    height: 330px;
+}
+.about-section h2{
+    font-size:40px;
+}
+.main-content {
+    background: 
+    url("../src/assets/img/bg-l.webp")  right bottom / 50% 50% no-repeat,
+}
+    /* contact me */
+    .contact-section h2{
+        font-weight: bold;
+        font-size: 40px;
+        color: #0B1720;
+    }
+    /* skills */
+    .my-skills img{
+        width: 70px;
+        height:70px;
+  
+    }
+    /* projects */
+    .projects-section h2{
+        font-size:40px;
+    } 
+}
+/*navbar*/
+@media screen and (max-width: 791px) {
+    .responsive-navbar a{
+        color:inherit;
+        text-decoration: none;
+
+        font-size: 16px;
+        font-weight:400;
+        letter-spacing: 1px; 
+        transition:  0.5s !important;
+    }
+    .dropdown-menu{
+        z-index:9999;
+    }
+    .responsive-navbar{
+        display:flex;
+        align-items:center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content:flex-end;
+    }
+
+    .navbar-content{
+        display:none;
+    }
+    /*about me */
+    .main-content .me-content h1{
+
+         font-size:30px;
+      }
+      #my-photograph{
+        width:  280px;
+        height: 280px;
+    }
+    .main-content {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100vh;
+        width:100%;
+        overflow: hidden;
+        background: 
+        url("../src/assets/img/bg-l.webp")   no-repeat,
+        linear-gradient(to right, #bedafa, #cce4ff 50%, #cce4ff 50%, #cce4ff);
+        border-bottom: 30px solid #b7d5fc;
+        background-attachment: fixed;
+     
+    }
+    /*who i am*/
+    .about-section h2{
+        font-weight: bold;
+        font-size: 30px;
+        color: #0B1720;
+    
+    }
+    /* projects */
+    #projects-section{
+        background: 
+        url("../src/assets/img/bg-l.webp")   no-repeat,
+        linear-gradient(to right, #01479c, #4682b4);
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+    /*skills*/
+    .skills-section h2 {
+        font-size:20px;
+    }
+    .my-skills a{
+        margin:20px;
+    }
+
+}
+@media screen and (max-width: 663px) {
+    /*about me */
+    #my-photograph{
+        display:none;
+    }
+    .main-content{
+        display:flex;
+        justify-content:center;
+
+    }
+    .main-content .me-content{
+        margin-top:25%;
+        width:80%;
+        display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+   gap:20px;
+    }
+    .main-content .me-content h1 {
+        font-size: 40px;
+        
+    }
+    .mq-class{
+        display:none !important;
+    }
+    .me-icons{
+        margin-right:0;
+    }
+}
+@media screen and (max-width: 663px) {
+    .main-content .me-content h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 537px) {
+    .main-content .me-content h1 {
+        font-size: 30px;
+    }
+
+ /*footer*/
+
+ footer p{
+    font-size:13px;
+    text-align:center;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+}
+@media screen and (max-width: 467px) {
+   
+   
+    /*skills*/
+
+    .my-skills a{
+        margin:10px;
+    }
+   
+    .my-skills img{
+        
+        width: 50px;
+        height:50px;
+
+    }
+    .skills-section h2 {
+        font-size:18px;
+        text-align:center;
+    }
+    /* projects*/
+    .projects-section h2 {
+
+        font-size:36px;
+        text-align:center;
+   }
+}
+@media screen and (max-width: 404px) {
+ /* who i am */ 
+
+.about-section #about-potograph{
+    
+    position: static;
+  
+    width:  180px;
+    height: 180px;
+    border: 10px solid #83c4e4;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+/*contact-me*/
+.contact-section p{
+    font-size:14px;
+}
+}
+@media screen and (max-width: 328px) {
+    /*about-me*/
+    .me-content p{
+        text-align:center;
+    }
+    
+>>>>>>> db15eed5ff67ef0afd2911ddca7a9d0c89c0666c
 }

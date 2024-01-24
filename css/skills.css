@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .my-skills img{
     max-width: 100%;
     height: auto;
@@ -32,4 +33,40 @@ transform: scale(1.05);
     font-weight: bold;
     font-size: 30px;
     color: #250e99;
+=======
+.my-skills img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 80px;
+    height:80px;
+    object-fit:cover;
+    transition:0.5s;
+}
+.my-skills img:hover{
+transform: scale(1.05);
+}
+.my-skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.my-skills a{
+    margin:50px;
+}
+.skills-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    margin:var(--section-distance);
+    margin-bottom:var(--section-distance-bottom);   
+    
+}
+.skills-section h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: #250e99;
+>>>>>>> db15eed5ff67ef0afd2911ddca7a9d0c89c0666c
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contact-me-icons{
     position: relative;
     bottom: 0;
@@ -56,4 +57,64 @@ padding:5px;
   width:35px;
   height:35px;
   
+=======
+.contact-me-icons{
+    position: relative;
+    bottom: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    margin-right:30px;
+    justify-content: center;
+    align-items: flex-start;
+   
+   flex-direction: row;
+}
+.contact-me-icons ul{
+    display:flex;
+    flex-wrap: nowrap;
+
+    padding-left:0;
+}
+.contact-me-icons ul li a{
+  text-decoration:none;
+  
+}
+.contact-me-icons ul li i{
+ 
+  transition:0.5s;
+  text-decoration:none;
+  font-size:30px;
+  color:rgb(61,61,63);
+}
+.contact-me-icons ul li i:hover{
+  color:#207DE9;
+}
+
+.contact-me-icons ul li {
+display:flex;
+justify-content:flex-start;
+align-items:center;
+padding:5px;
+}
+.contact-section h2{
+    font-weight: bold;
+    font-size: 55px;
+    color: #0B1720;
+}
+.contact-section{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    padding:var(--section-distance);
+ 
+}
+.kiwi{
+  margin-left:20px;
+  width:35px;
+  height:35px;
+  
+>>>>>>> db15eed5ff67ef0afd2911ddca7a9d0c89c0666c
 }

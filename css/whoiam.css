@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .about-section {
     display:flex;
     justify-content: center;
@@ -30,4 +31,38 @@
     font-size: 16px;
     font-weight:300;
     
+=======
+.about-section {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    margin:var(--section-distance);
+    margin-bottom:var(--section-distance-bottom);    
+}
+.about-section h2{
+    font-weight: bold;
+    font-size: 55px;
+    color: #0B1720;
+
+}
+.about-section #about-potograph{
+    position: static;
+    width:  480px;
+    height: 450px;
+    object-fit:cover;
+    object-position: center top;
+}
+.about-content{
+    padding-top:50px;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    
+}
+.about-content p{
+    font-size: 16px;
+    font-weight:300;
+    
+>>>>>>> db15eed5ff67ef0afd2911ddca7a9d0c89c0666c
 }

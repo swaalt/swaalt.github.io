@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer{
     display: flex;
     justify-content: center;
@@ -10,4 +11,18 @@ footer p{
 }
 footer a{
     text-decoration: none;
+=======
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(17, 14, 48);
+    height:13%;
+}
+footer p{
+    color:#ffff;
+}
+footer a{
+    text-decoration: none;
+>>>>>>> db15eed5ff67ef0afd2911ddca7a9d0c89c0666c
 }
