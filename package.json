@@ -1,19 +1,17 @@
 {
   "dependencies": {
-    "aos": "^2.3.4",
-    "bootstrap": "^5.3.2",
     "motion": "^10.17.0"
   },
   "name": "development",
+  "description": "",
   "version": "1.0.0",
-  "source": "./src/index-es.html",
+  "main": "app.js",
+  "type":"module",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "parcel": "^2.2.1"
-  }
+  "license": "ISC"
 }
