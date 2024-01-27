@@ -38,6 +38,8 @@
 
     "start": "parcel ./index.html",
 
+    "homepage": "https://github.com/swaalt/swaalt.github.io",
+
     "predeploy": "parcel build index.html --public-url ./",
 
     "build-dev": "parcel build ./src/index.html --no-optimize --public-url ./",
