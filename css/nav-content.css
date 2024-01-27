@@ -7,7 +7,7 @@ nav ul {
    justify-content:flex-end;
 }
 nav ul li{
-    margin:20px;
+    margin:2.6vh;
 
 }
 .responsive-navbar{
@@ -24,19 +24,20 @@ nav{
 
     width:100%;
     z-index:9999;
-    height:64px;
+    height:10vh;
     box-shadow: rgba(3,27,78,.1) 0 2px 4px;
 }
 nav ul li a, nav ul li a:active, nav ul li a:link{
     color:inherit;
     text-decoration: none;
-   
-    margin: 0 5px;
-    font-size: 16px;
+    
+    margin: 0 1vh;
+    font-size: 2.4vh;
     font-weight:400;
-    letter-spacing: 1px; 
+    letter-spacing: 0.2vh; 
     transition:  0.5s !important;
 }
 nav ul li a:hover{
    color:#207de9;
+
 }

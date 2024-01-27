@@ -1,35 +1,55 @@
-.my-skills img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    width: 80px;
-    height:80px;
-    object-fit:cover;
-    transition:0.5s;
+.my-skills img:hover {
+  transform: scale(1.05);
 }
-.my-skills img:hover{
-transform: scale(1.05);
-}
-.my-skills{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 
+.my-skills img {
+  margin: 10px;
 }
-.my-skills a{
-    margin:50px;
-}
-.skills-section{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
 
-    margin:var(--section-distance);
-    margin-bottom:var(--section-distance-bottom);   
-    
+.skills-section {
+  max-width: 1280px;
 }
-.skills-section h2{
-    font-weight: bold;
-    font-size: 30px;
-    color: #250e99;
+.skills-section-inner {
+  margin: 20px;
+  padding: 1rem 0;
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
 }
+.skills-section-inner img {
+  width: 80px;
+  height: 80px;
+}
+.skills-section[data-animated=true] {
+  overflow: hidden;
+  --webkit-mask:
+  linear-gradient(
+      90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent
+  );
+  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+          mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+.skills-section[data-animated=true] .skills-section-inner {
+  flex-wrap: nowrap;
+  animation: scroll var(--_animation-duratoin, 80s) var(--_animation-direction, forwards) linear infinite;
+}
+.skills-section[data-duration=fast] {
+  --_animation-duratoin: 80s;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-90% - 0.5rem));
+  }
+}
+.tittle-skill-section {
+  font-weight: bold;
+  font-size: 30px;
+  color: #250e99;
+  text-align: center;
+  padding-top: var(--section-distance);
+}/*# sourceMappingURL=skills.css.map */

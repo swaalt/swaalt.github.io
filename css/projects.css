@@ -33,6 +33,7 @@
 .projects-card .card-text{
     font-size: 14px;
     font-weight:300;
+    text-wrap:balance;
 }
 .projects-button{
     text-align: center;

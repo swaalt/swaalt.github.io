@@ -1,0 +1,234 @@
+@media screen and (width <= 1435px) {
+  #my-photograph {
+    width: 390px;
+    height: 390px;
+  }
+}
+
+@media screen and (width <= 1317px) {
+  .main-content .me-content h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (width <= 996px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-section #about-potograph {
+    object-fit: cover;
+    border: 10px solid #83c4e4;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    position: static;
+  }
+
+  #my-photograph {
+    width: 330px;
+    height: 330px;
+  }
+
+  .about-section h2 {
+    font-size: 40px;
+  }
+
+  .main-content {
+    background: url("bg-l.7e03b1fa.webp") 100% 100% / 50% 50% no-repeat, none;
+  }
+
+  .contact-section h2 {
+    color: #0b1720;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .my-skills img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .projects-section h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (width <= 791px) {
+  .responsive-navbar a {
+    color: inherit;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all .5s !important;
+  }
+
+  .dropdown-menu {
+    z-index: 9999;
+  }
+
+  .responsive-navbar {
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .navbar-content {
+    display: none;
+  }
+
+  .main-content .me-content h1 {
+    font-size: 30px;
+  }
+
+  #my-photograph {
+    width: 280px;
+    height: 280px;
+  }
+
+  .main-content {
+    background-color: #0000;
+    background-image: url("bg-l.7e03b1fa.webp"), linear-gradient(to right, #bedafa, #cce4ff 50% 50%, #cce4ff);
+    background-position: 0 0, 0 0;
+    background-repeat: no-repeat, repeat;
+    background-size: auto, auto;
+    background-attachment: fixed;
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    border-bottom: 30px solid #b7d5fc;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .about-section h2 {
+    color: #0b1720;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #projects-section {
+    background-color: #0000;
+    background-image: url("bg-l.7e03b1fa.webp"), linear-gradient(to right, #01479c, #4682b4);
+    background-position: 0 0, 0 0;
+    background-repeat: no-repeat, repeat;
+    background-size: auto, auto;
+    background-attachment: fixed;
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    overflow: hidden;
+  }
+
+  .skills-section h2 {
+    font-size: 20px;
+  }
+
+  .my-skills a {
+    margin: 20px;
+  }
+}
+
+@media screen and (width <= 663px) {
+  #my-photograph {
+    display: none;
+  }
+
+  .main-content {
+    justify-content: center;
+    display: flex;
+  }
+
+  .main-content .me-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .main-content .me-content h1 {
+    font-size: 40px;
+  }
+
+  .mq-class {
+    display: none !important;
+  }
+
+  .me-icons {
+    margin-right: 0;
+  }
+
+  .main-content .me-content h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+}
+
+@media screen and (width <= 537px) {
+  .main-content .me-content h1 {
+    font-size: 30px;
+  }
+
+  footer p {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+  }
+}
+
+@media screen and (width <= 467px) {
+  .my-skills a {
+    margin: 10px;
+  }
+
+  .my-skills img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skills-section h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .projects-section h2 {
+    text-align: center;
+    font-size: 36px;
+  }
+}
+
+@media screen and (width <= 404px) {
+  .about-section #about-potograph {
+    object-fit: cover;
+    border: 10px solid #83c4e4;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    position: static;
+  }
+
+  .contact-section p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (width <= 328px) {
+  .me-content p {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=index.f4c3a2cb.css.map */

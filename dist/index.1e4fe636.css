@@ -1,0 +1,37 @@
+.about-section {
+  margin: var(--section-distance);
+  margin-bottom: var(--section-distance-bottom);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.about-section h2 {
+  color: #0b1720;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.about-section #about-potograph {
+  object-fit: cover;
+  object-position: center top;
+  width: 480px;
+  height: 450px;
+  position: static;
+}
+
+.about-content {
+  justify-content: center;
+  gap: 40px;
+  padding-top: 50px;
+  display: flex;
+}
+
+.about-content p {
+  text-wrap: balance;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=index.1e4fe636.css.map */
