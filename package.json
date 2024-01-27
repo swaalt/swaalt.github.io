@@ -35,7 +35,7 @@
   "scripts": {
 
     "start": "parcel ./index.html",
-
+    "predeploy": "parcel build index.html --public-url ./",
     "build-dev":  "parcel build ./src/index.html --no-optimize --public-url ./",
     "build": "parcel build ./src/index.html --public-url ./",
 
