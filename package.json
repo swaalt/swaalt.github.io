@@ -34,9 +34,9 @@
 
   "scripts": {
 
-    "start": "parcel ./*.html",
+    "start": "parcel ./index.html",
 
-    "predeploy": "rm -rf dist && parcel build ./*.html --public-url 'swaalt.github.io'",
+    "predeploy":  "parcel build ./src/index.html --no-optimize --public-url ./",
 
     "deploy": "gh-pages -d dist",
 
