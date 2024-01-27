@@ -1,6 +1,5 @@
 import './../../../css/skills.scss'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap'
+
 const scrollers = document.querySelectorAll('.skills-section');
 
 function addAnimation(){
