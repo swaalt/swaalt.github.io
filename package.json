@@ -1,24 +1,44 @@
 {
 
   "dependencies": {
+
     "motion": "^10.17.0",
+
     "sass": "^1.70.0"
+
   },
+
   "type": "module",
+
   "name": "development",
+
   "description": "",
+
   "version": "1.0.0",
+
   "main": "app.js",
+
   "devDependencies": {
+
     "@parcel/transformer-sass": "^2.11.0",
+
     "motion": "latest",
+
     "parcel": "^2.11.0"
+
   },
+
   "scripts": {
+
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
+
   "keywords": [],
+
   "author": "",
+
   "license": "ISC"
-  
+
 }
+
