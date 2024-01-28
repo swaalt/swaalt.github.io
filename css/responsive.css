@@ -132,6 +132,9 @@
         overflow: hidden;
     }
     /*skills*/
+    .my-skills{
+        width:100%;
+    }
     .skills-section h2 {
         font-size:20px;
     }
@@ -192,6 +195,11 @@
     margin-right: auto;
 }
 
+/* skills*/
+.my-skills{
+    padding:10px;
+    padding-top:30px;
+}
 
 }
 @media screen and (max-width: 467px) {
@@ -199,8 +207,8 @@
    
     /*skills*/
 
-    .my-skills a{
-        margin:10px;
+    .my-skills{
+        gap:15px;
     }
    
     .my-skills img{
@@ -238,6 +246,7 @@
 .contact-section p{
     font-size:14px;
 }
+
 }
 @media screen and (max-width: 328px) {
     /*about-me*/
